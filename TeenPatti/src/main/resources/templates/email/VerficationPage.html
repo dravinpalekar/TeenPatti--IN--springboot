@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dravin's Chat</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="email/css/bootstrap.min.css">
+  <script src="email/js/jquery.min.js"></script>
+  <script src="email/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color: #F2F2F2; width:100%; height:800px;">
+
+	<div class="container" style="width:600px; height:620px;margin-left: 100px;background-color: white;">
+			<div class="row" style="height: 128px;background-color: white;font-size: 65px;color: #ace5ee;text-align:center;margin:0 auto;">Dravin-Chat</div>
+				
+			<div class="row"><p style="margin-left: 25px; color:black; font-size:22px;">
+				Verify your email address to complete registration</p></div>
+			<br><br>
+			<div class="row" style="margin-left: 25px; font-size:15px;">Hi <b th:text="${user.username}"></b>,</div>
+			<br>
+			<div class="row" style="margin-left: 25px; font-size:15px;margin-right: 18px;">
+			Thanks for your interest in joining Dravin-Chat! To complete your registration, we need you to verify your email address.
+			</div>
+			<br>
+			<div class="row" style="text-align:center;margin:0 auto;">
+				<a id="myAnchor" style="height:100px; width:300px; background-color:#37a000;border:2px solid #37a000;border-radius:2px;color:#ffffff;font-size:16px;line-height:76px;text-decoration: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Verify Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+			</div>
+			<br>
+			<div class="row" style="margin-left: 25px; margin-right: 18px; font-size:15px;">
+			Please note that not all applications to join Dravin-Chat are accepted. We will notify you of our decision by email within 24 hours.
+			</div>
+			<br><br>
+			<div class="row" style="margin-left: 25px;">
+			Thanks for your time,<br>
+			The Dravin-Chat Team
+			</div>
+		
+	</div>
+	<script type="text/javascript">
+	console.log("dravin palekar 3826");
+	document.getElementById("myAnchor").href = "http://www.cnn.com/";
+	</script>
+</body>
+</html>
