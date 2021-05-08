@@ -10,5 +10,7 @@ import com.TeenPatti.demo.Entity.UserEntity;
 @EnableJpaRepositories
 @Repository
 public interface UserEntityRepository extends JpaRepository<UserEntity, Long>{
+	
+	UserEntity findByUsername(String username);
 
 }
