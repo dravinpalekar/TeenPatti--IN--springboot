@@ -20,7 +20,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
+ 
 @Getter
 @Setter
 @AllArgsConstructor
@@ -42,9 +42,10 @@ public class UserEntity {
 	@Column(nullable = false)
 	private String password;
 
-	@JsonIgnore
+//	@JsonIgnore
 	@Column(nullable = true)
-	private String role = "none";
+//	private String role = "none";
+	private String role;
 
 	@JsonIgnore
 	@Column(nullable = true)

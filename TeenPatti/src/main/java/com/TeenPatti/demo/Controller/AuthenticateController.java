@@ -57,12 +57,8 @@ public class AuthenticateController {
 	@GetMapping("/")
 	public String welcome()
 	{
-//		HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.currentRequestAttributes()).getRequest();
-//	    String token = request.getHeader("Authorization").split(" ")[1];
-//		boolean a=jwtUtil.isTokenExpired(token);
 		return "Welcome Dravin / Admin";
 	}
-	
 	
 	@RequestMapping("/hellouser")
 	public String getUser()
