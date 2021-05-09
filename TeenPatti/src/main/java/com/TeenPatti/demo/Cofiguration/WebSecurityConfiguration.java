@@ -53,8 +53,8 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter{
     protected void configure(HttpSecurity http) throws Exception {	
         http.csrf().disable()
         		.authorizeRequests()
-//        			.antMatchers("/helloadmin","/").hasRole("ADMIN")
-//        			.antMatchers("/hellouser").hasRole("USER")
+        			.antMatchers("/helloadmin","/").hasRole("ADMIN")
+        			.antMatchers("/hellouser").hasRole("USER")
 //        			.antMatchers(HttpMethod.POST, "/notification").hasRole("USER")
 //        			.antMatchers(HttpMethod.GET, "/searchByEmail").hasRole("USER")
 //        			.antMatchers("/user/group").hasRole("USER")
