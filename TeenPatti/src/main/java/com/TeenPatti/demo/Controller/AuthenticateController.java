@@ -52,8 +52,6 @@ public class AuthenticateController {
 	}
 	
 	
-	
-	
 	@GetMapping("/")
 	public String welcome()
 	{
